@@ -1,0 +1,35 @@
+{
+  "name": "nor-nopg-server",
+  "version": "0.1.0",
+  "description": "The NoPg Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sendanor/nor-nopg-server.git"
+  },
+  "keywords": [
+    "nopg",
+    "database",
+    "nosql",
+    "server",
+    "rest",
+    "http"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/nor-nopg-server/issues"
+  },
+  "homepage": "https://github.com/sendanor/nor-nopg-server",
+  "dependencies": {
+    "express": "^4.13.3",
+    "nor-debug": "^0.1.55",
+    "nor-is": "^0.1.18",
+    "nor-nopg": "^0.1.123",
+    "q": "^1.4.1"
+  }
+}
